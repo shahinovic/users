@@ -22,7 +22,7 @@ const App = () => {
   }, [dispatch]);
 
   const data = useSelector((state) => state.data);
-  console.log("🚀 ~ file: App.jsx:26 ~ App ~ data:", data);
+
   if (data.length < 1) {
     return <Loader />;
   }

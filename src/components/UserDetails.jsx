@@ -78,7 +78,7 @@ const UserDetails = () => {
           <span>{selectedUser.jobTitle}</span>
         </div>
         <div
-          onClick={() => handleCopyText(selectedUser.email, "Email")}
+          onClick={() => handleCopyText(selectedUser.profile.email, "Email")}
           className="user-email w-100 mb-3 d-flex flex-column align-items-center  p-2"
         >
           <span>Email</span>
